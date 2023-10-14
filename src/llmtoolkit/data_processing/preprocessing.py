@@ -1,6 +1,8 @@
 import re
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+from typing import List
+
 
 def preprocess_data(texts: List[str], remove_stopwords=True, lemmatize=True) -> List[str]:
     """
