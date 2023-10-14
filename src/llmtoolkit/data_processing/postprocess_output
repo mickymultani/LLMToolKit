@@ -1,0 +1,5 @@
+def postprocess_output(tokens_list: List[List[str]]) -> List[str]:
+    """
+    Convert a list of token lists into coherent strings.
+    """
+    return [" ".join(tokens) for tokens in tokens_list]
