@@ -4,3 +4,5 @@ transformers
 nltk
 rouge
 scikit-learn
+matplotlib
+seaborn
